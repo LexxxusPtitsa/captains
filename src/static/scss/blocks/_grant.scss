@@ -1,0 +1,52 @@
+.grant {
+  background: #2f37ba;
+  &__inner {
+    padding-top: 53px;
+    padding-bottom: 59px;
+  }
+  &__title {
+    color: #ffffff;
+    padding-bottom: 23px;
+  }
+  &__form {
+    display: flex;
+    flex-direction: column;
+  }
+  &__input {
+    font-size: 14px;
+    line-height: 24px;
+    padding: 15px 20px;
+    background: #444dd8;
+    color: rgba($color: #fff, $alpha: 0.7);
+    outline: none;
+    border: none;
+    width: 100%;
+    margin-bottom: 2px;
+    &::placeholder {
+      color: rgba($color: #fff, $alpha: 0.5);
+    }
+  }
+  &__button {
+    margin-bottom: 10px;
+  }
+  &__conditions {
+    display: flex;
+  }
+  &__radio {
+    margin-right: 14px;
+  }
+  &__conditions-inner {
+    display: flex;
+    flex-direction: column;
+  }
+  &__conditions-text {
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba($color: #fff, $alpha: 0.6);
+  }
+  &__conditions-link {
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba($color: #fff, $alpha: 1);
+  }
+}
